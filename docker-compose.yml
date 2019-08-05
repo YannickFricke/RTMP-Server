@@ -1,0 +1,10 @@
+version: '2'
+services: 
+  rtmp_server:
+    image: "yfr/rtmpserver:latest"
+    build: 
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - 1935:1935
+      - 8080:8080
