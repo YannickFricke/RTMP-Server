@@ -1,7 +1,7 @@
 version: '2'
 services: 
   rtmp_server:
-    image: "yfr/rtmpserver:latest"
+    image: "yfricke/rtmpserver:latest"
     build: 
       context: .
       dockerfile: ./Dockerfile
