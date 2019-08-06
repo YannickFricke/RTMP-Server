@@ -21,7 +21,11 @@ The url: `rtmp://host/<applicationName>`
 
 ## Example URL
 
-- [Live application from nginx file localhost](rtmp://localhost:1935/live)
+| Application name                 | URL                        |
+| :------------------------------- | :------------------------- |
+| live (from example nginx config) | rtmp://localhost:1935/live |
+
+- [Live application from nginx file localhost](rtmp://localhost/live)
 
 ## Broadcasting
 
